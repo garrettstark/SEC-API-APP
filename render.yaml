@@ -10,5 +10,5 @@ services:
     startCommand: "gunicorn --chdir src app:server" #app.server because app name is app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.0
+        value: 3.12.7
         
